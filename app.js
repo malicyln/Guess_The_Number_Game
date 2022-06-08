@@ -13,7 +13,7 @@ const guessGame = function () {
       if (input.value > random) {
         paragraf.innerHTML = "Lower number please";
         life--;
-        document.querySelector(".last").innerText = input.value;
+        document.querySelector(".second").innerText = input.value;
         dow.play();
       } else if (input.value < random) {
         paragraf.innerHTML = "Greater number please";
